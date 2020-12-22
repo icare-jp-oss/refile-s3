@@ -28,7 +28,7 @@ module Refile
   class S3
     extend Refile::BackendMacros
 
-    attr_reader, :max_size
+    attr_reader :max_size
 
     # Sets up an S3 backend
     #
